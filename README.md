@@ -1,5 +1,6 @@
 # url-redirect
 Redirect to webpages using https://yourdomain.com/go.html?url={your_url_here}
+
 Make sure that the url after "?url=" is written with proper protocols included, for example: for sites with SSL use "https://{domain}.com" for ones without ssl simply type "http://" instead of "https://"
 
 # Instructions:
