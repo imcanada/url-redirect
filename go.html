@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    "redirect to url via url" params by imcanada
+    www.imcanada.eu / www.imcanada.cf
+    (c) 2019
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Redirecting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+    }
+
+    p {
+        font-family: 'Nunito', sans-serif;
+    }
+
+    body {
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    html,body {
+        background-color: white;
+    }
+    </style>
+    <script type="text/javascript">
+        window.onload = adforward();
+        function adforward() {
+        var url = new URL(window.location.href);
+        var navigate = url.searchParams.get("url");
+        window.location.href=navigate
+        }
+    </script>
+	<div style="height: 30vh;"></div>
+    <h1>Redirecting</h1>
+	<p>Make sure JavaScript is on<br>&copy; 2019 &bull; imcanada</p>
+</body>
+</html>
