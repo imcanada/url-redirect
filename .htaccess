@@ -2,9 +2,8 @@
 # in order to use example.com/go?url=https://something/
 # instead of example.com/go.html?url=https://something/
 # That way your redirect looks more professional.
+RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^test[^/]$ test.html
+RewriteRule ^([^\.]+)$ go.html [NC,L]
 
 # Put other stuff down here.
