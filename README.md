@@ -16,4 +16,7 @@ Test this script to see if you like it by going to https://imcanada.cf/go?url=ht
 # Customization
 Of course you can change the script to your needs, for example I set up a simple "adf.ly-like" system by adding a timer and a progress bar which you can see here: https://zreddx.net/go?url=https://google.com/
 
+# Support
+Post problems in issues, I don't know if i'll ever look at it but it's worth the try. My advice is "If you screw it up, start all over again".
+
 # If you don't trust my links then don't use them
